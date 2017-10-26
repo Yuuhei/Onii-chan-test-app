@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test App da yo, Onii-chan!</string>
+    <string name="text1">Welcome!</string>
+	<string name="text2">This app is created to demonstrate XML files inside an Android application. Press [Terminate] to exit, or press [Gimme fancy stuff] for some nonsense stuff, Spinning Circle for ToastOnProgressBar implementation, or [Notice us, Senpai!!] for information.</string>
+	<string name="text3">Group 2 (Amanojaku Satellite) Project</string>
+	<string name="time">The time now is $t</string>
+
+</resources>

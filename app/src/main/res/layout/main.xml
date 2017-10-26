@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:foregroundGravity="center">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<TextView
+			android:text="@string/text1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:layout_marginBottom="5dp"
+			android:textColor="#A04EEF"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:text="@string/text2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="15dp"
+			android:textColor="#000000"
+			android:alpha="3.0"
+			android:ems="20"/>
+
+		<Button
+			android:text="Terminate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onExitButtonClick"
+			android:layout_marginBottom="10dp"
+			android:textColor="#FA0E00"/>
+
+		<Button
+			android:text="Gimme fancy stuff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onDropButtonClick"
+			android:layout_marginBottom="10dp"
+			android:textColor="#292929"/>
+
+		<ProgressBar
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:onClick="onCircleSpinnerClick"
+			android:layout_marginBottom="40dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="What's this star?"
+			android:textColor="#CA42E5"/>
+
+		<ImageView
+			android:background="@drawable/ic_launcher"
+			android:scaleType="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onHoshiImgClick"
+			android:layout_marginBottom="30dp"/>
+
+		<Button
+			android:text="Notice us, Senpai!!"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onNoticeMeButtonClick"
+			android:textColor="#BC35E5"/>
+
+		<TextView
+			android:text="@string/text3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:textColor="#3900FF"/>
+
+	</LinearLayout>
+
+</ScrollView>
+
